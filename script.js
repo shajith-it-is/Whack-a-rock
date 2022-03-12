@@ -18,7 +18,6 @@ const interval = setInterval(() => {
         else if(goal.innerHTML < score.innerHTML) {
             alert('You Won!!!');
         }
-        //clearInterval(interval);
         score.innerHTML = 0;
         timer.innerHTML = 60;
     }
